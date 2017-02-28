@@ -49,7 +49,7 @@
        
        $http({
     	   method: 'GET',
-    	   url: "http://localhost:3000/add",
+    	   url: "/add",
            params: {num1:$scope.addnum1,num2:$scope.addnum2}
     	 }).then(function successCallback(response) {
     	     alert(response.data);
